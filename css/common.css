@@ -68,8 +68,7 @@ body {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.list {
-}
+
 .li-item {
   font-weight: 400;
   font-size: 16px;
@@ -91,4 +90,10 @@ body {
 li:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
